@@ -1,19 +1,22 @@
-# Contributing
+# Contributing Guidelines
 
-Your contributions are always welcome! Please take a moment to review these guidelines before submitting a pull request.
+Thank you for considering contributing to Awesome Python!
 
 ## Guidelines
 
 - Search previous suggestions before submitting a new one to avoid duplicates.
-- Ensure the suggested project is actively maintained and includes an open-source license.
-- Make sure project URLs use `https://` where available.
-- Use the standard format: `[Package](https://example.com) - Short, objective description ending with a period.`
-- Keep descriptions concise and free of promotional language or marketing buzzwords.
-- Insert new entries in alphabetical order within their respective categories.
-- Submit a separate pull request for each proposed item.
+- Make sure the project you are suggesting is actively maintained (recent commits or releases within the last 12 months).
+- Check that the proposed library or tool is written in Python or has primary Python bindings.
+- Add new items to the end of their respective category section.
+- Use the following format for additions: `* [Name](link) - Short description.`
+- Descriptions should be concise, neutral, and end with a period.
+- Ensure proper spelling and grammar.
+- Format entry lists alphabetically within each section where appropriate.
 
-## Adding a New Category
+## Pull Request Checklist
 
-If you believe a relevant category is missing, please open an issue to discuss it prior to submitting a pull request.
-
-Thank you for helping keep Awesome Python curated and up to date!
+- [ ] Single change per pull request.
+- [ ] Link works and points to the official repository or website.
+- [ ] Verified PyPI package status and active maintenance.
+- [ ] Placed in the appropriate section.
+- [ ] Adheres to community code of conduct.
