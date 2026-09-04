@@ -1,22 +1,33 @@
-# Contributing Guidelines
+# Awesome Python
 
-Thank you for considering contributing to Awesome Python!
+A curated list of awesome Python frameworks, libraries, software and resources.
 
-## Guidelines
+## Data Analysis
 
-- Search previous suggestions before submitting a new one to avoid duplicates.
-- Make sure the project you are suggesting is actively maintained (recent commits or releases within the last 12 months).
-- Check that the proposed library or tool is written in Python or has primary Python bindings.
-- Add new items to the end of their respective category section.
-- Use the following format for additions: `* [Name](link) - Short description.`
-- Descriptions should be concise, neutral, and end with a period.
-- Ensure proper spelling and grammar.
-- Format entry lists alphabetically within each section where appropriate.
+*Libraries for data manipulation and analysis.*
 
-## Pull Request Checklist
+* [Pandas](https://pandas.pydata.org/) - A library providing high-performance, easy-to-use data structures and data analysis tools.
+* [Polars](https://pypolars.org/) - Fast multi-threaded DataFrame library implemented in Rust with Python bindings.
+* [NumPy](https://numpy.org/) - A fundamental package for scientific computing with Python.
+* [SciPy](https://scipy.org/) - A Python-based ecosystem of open-source software for mathematics, science, and engineering.
+* [Dask](https://www.dask.org/) - Flexible library for parallel computing in Python.
+* [DuckDB](https://duckdb.org/) - An in-process SQL OLAP database management system.
 
-- [ ] Single change per pull request.
-- [ ] Link works and points to the official repository or website.
-- [ ] Verified PyPI package status and active maintenance.
-- [ ] Placed in the appropriate section.
-- [ ] Adheres to community code of conduct.
+## Database Drivers
+
+*Libraries for connecting and operating databases.*
+
+* [SQLAlchemy](https://www.sqlalchemy.org/) - The Python SQL Toolkit and Object Relational Mapper.
+* [psycopg2](https://www.psycopg.org/) - The most popular PostgreSQL adapter for Python.
+* [asyncpg](https://github.com/MagicStack/asyncpg) - A fast PostgreSQL database client library for asyncio.
+
+## Data Pipelines / ETL
+
+* [Apache Airflow](https://airflow.apache.org/) - Platform created by community to programmatically author, schedule and monitor workflows.
+* [Prefect](https://www.prefect.io/) - A modern workflow orchestration engine for data pipelines.
+* [Dagster](https://dagster.io/) - An orchestrator for machine learning, analytics, and ETL.
+* [Great Expectations](https://greatexpectations.io/) - A tool for validating, documenting, and profiling your data.
+
+## Contributing
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) for contribution guidelines.
